@@ -1,0 +1,13 @@
+python main.py \
+		--method 1 \
+		--shuffle 1 \
+		--epoch 3 \
+		--minibatch 3 \
+		--src ./data/src.txt \
+		--tgt ./data/tgt.txt \
+		--swvocab ./data/dic.dict \
+		--twvocab ./data/dic.dict \
+		--beamsize 1 \
+		--test ./test/test.txt \
+		--mode 0 \
+		--model ./model/1/2017.06.29-1- \
